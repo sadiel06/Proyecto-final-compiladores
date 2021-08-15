@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Compilador.exe" version="1.0.0.1" publicKeyToken="6e16ee028d23e98d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Compilador" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Compilador.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Compilador.exe" size="114672">
+      <assemblyIdentity name="Compilador" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MmWGUXUu/pQxPCOoLI2BLV2WTO+P1yfw4ZNlXEN5My0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Procesos.dll" size="57856">
+      <assemblyIdentity name="Procesos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lhf5iS7jgzJGYU/GXIynrbDLSXL67jlkq0lnzxazFMU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Compilador.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Ejemplos\Anidacion.c" size="290">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>liYoJwuxtFsX3wdOVjiHSpq4uxunp7XK9JSQZXt2ddk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Ejemplos\AsignacionSimple.c" size="34">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d8Dl7bVCK2se1AtYLVb2Di+/EhwkABg1IwwxH3Tdwvg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Ejemplos\DoWhile.c" size="166">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ga+28diHAX1xS+5D9A9n6Y/RQyL5rKx8MUbqyFXirfA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Ejemplos\For.c" size="151">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jMOiFiy91FJQ0jbluoBB2xhzW1S1E4fj9syMPyZKNwc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Ejemplos\while.c" size="160">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ra9Pz1FCDgXYm7iOCueLeKILKjrpN2VicV5+Vf3muLs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\icons8-guardar-48.png" size="423">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uE3RemH6EO6PEi2gjEy3Pu+PNkge4Ua13yU9Wj+LENo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-DANIEL\Daniel-CJ" issuerKeyHash="b3d39665dc1cd83d8a42a9aea3dfcd707ac36689" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vHEYlXCDuU5a+Nm0IMH4Qzu3dRRRj9wCcr5c9KcMRtQ=</DigestValue></Reference></SignedInfo><SignatureValue>SHLBNpek1rPqgu+A0krtS0mz8DTorq2IleEJXOK2CQ8TWrwnaWrLq/4lN7I8npxBE/buNu6K5OIv+E0KOQNjNJj2gbBuqMEu6WmHUAWTKGxL/gDz148t5H9TpgeEFHpY50Va73KRb1OZxG9syUDYl3WWXrNpKfDBBBSZWYdpVlg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vvQqxQS61argXZDIk/cDkAETdMUVhvGFwvqI4E6zxBiRjbNvF57fBYBbdkuLJvM/DW2SGDG6MqQqEnuGUNrt0Hw5tYZvoRniS5ikbYSqdG3yEHW8/QnScVeBOihL/bX6suSC1Mevyizc4mX/I+iRFhkdTj0QvTZR2YYwu51VBak=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d4460ca7f45cbe7202dc8f511475b73b43f8c120b4d9f85a4eb98370951871bc" Description="" Url=""><as:assemblyIdentity name="Compilador.exe" version="1.0.0.1" publicKeyToken="6e16ee028d23e98d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-DANIEL\Daniel-CJ</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>k3vXEtc6r1LyKFBYf4gbnzgl6YQdAhPRspGurPg9FDY=</DigestValue></Reference></SignedInfo><SignatureValue>dMt8znjTkSomv6RgAIsOw5CqdLmt9l2WU3Cw2I9M554cYgPHJs23d1e+ak08/Labfws1D0KlbsWUb2gl/nRmyj/lsAfXEANNdEyo2zC/2pz3m8yywzTDeXpfsiYpK0f2wynPTHpAMXeEPvThDesJbanH1luLXwVSX0Iw0VQ2yyA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vvQqxQS61argXZDIk/cDkAETdMUVhvGFwvqI4E6zxBiRjbNvF57fBYBbdkuLJvM/DW2SGDG6MqQqEnuGUNrt0Hw5tYZvoRniS5ikbYSqdG3yEHW8/QnScVeBOihL/bX6suSC1Mevyizc4mX/I+iRFhkdTj0QvTZR2YYwu51VBak=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQciTLyTcrupVPekqK7vXgfjANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEQAQQBOAEkARQBMAFwARABhAG4AaQBlAGwALQBDAEowHhcNMjEwNzE1MDAxMTAwWhcNMjIwNzE1MDYxMTAwWjA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEQAQQBOAEkARQBMAFwARABhAG4AaQBlAGwALQBDAEowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL70KsUEutWq4F2QyJP3A5ABE3TFFYbxhcL6iOBOs8QYkY2zbxee3wWAW3ZLiybzPw1tkhgxujKkKhJ7hlDa7dB8ObWGb6EZ4kuYpG2EqnRt8hB1vP0J0nFXgTooS/21+rLkgtTHr8os3OJl/yPokRYZHU49EL02UdmGMLudVQWpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAV737UCfHzDNek8GM6pdVtQ2+kNmF+Ga1Ayl2rQJ1pHBCY1DxKVGKhoWNjFlfFBmffvy0VpG90aagvytgtU1DR6nkZNvJ+eZS/Yf1H2P0B8T289sFum55lcEyjCzM0vz/vo5+4nP6HmF0bgil9ZwbaSwQS4f5kaZZrKcfrnZpxqg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
